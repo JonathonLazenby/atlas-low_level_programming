@@ -1,17 +1,2 @@
 #!/bin/bash
-
-if [ "$#" - ne 2 ]; then
-  echo "Usage: =$0 input_file.c output_file.i"
-  exit 1
-fi
-
-input_file = "$1"
-output_file ="$2"
-
-gcc -E "$input_file" -o "$output_file"
-
-if [ $? -eq 0]; then
-   echo "preprocessing succsessful"
-else
-   echo "faluire"
-fi 
+gcc -E "$1" -o "$2" 
