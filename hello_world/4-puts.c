@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * This prints "Programming is like building a multilingual puzzle
+ * main - This prints "Programming is like building a multilingual puzzle
+ * Return: returns nothing
 */
 
 int main(void)
