@@ -14,12 +14,12 @@ int main(void)
 	/* your code goes there */
 	if (n == 0)
 	{
-		echo("%d is zero", n);
+		printf("%d is zero", n);
 	} else if(n > 0)
 	{
-		echo("%d is positive", n);
+		printf("%d is positive", n);
 	} else {
-		echo("%d is negitive", n);
+		printf("%d is negitive", n);
 	}
 
 	return (0);
