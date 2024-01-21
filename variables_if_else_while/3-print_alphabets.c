@@ -17,12 +17,12 @@ int main(void)
 		putchar(letter);
 		letter++;
 	}
-	putchar('\n');
 
 	while (upper <= 'Z')
 	{
-		punchar(upper);
+		putchar(upper);
 		upper++;
 	}
+	putchar('\n');
 	return (0);
 }
