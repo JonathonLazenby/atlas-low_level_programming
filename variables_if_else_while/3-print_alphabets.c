@@ -10,6 +10,7 @@
 int main(void)
 {
 	char letter = 'a';
+	char upper = 'A';
 
 	while (letter <= 'z')
 	{
@@ -18,8 +19,6 @@ int main(void)
 	}
 	putchar('\n');
 
-	char upper = 'A';
-
 	while (upper <= 'Z')
 	{
 		punchar(upper);
@@ -27,4 +26,3 @@ int main(void)
 	}
 	return (0);
 }
-
