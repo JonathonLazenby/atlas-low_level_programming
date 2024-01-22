@@ -16,7 +16,7 @@ int main(void)
 		putchar(hexdigit);
 		hexdigit++;
 	}
-	
+
 	hexdigit = 'a';
 
 	while (hexdigit <= 'f')
