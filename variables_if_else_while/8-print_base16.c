@@ -9,13 +9,13 @@
 
 int main(void)
 {
-        char hexdigit = '0';
+	char hexdigit = '0';
 
-        while (hexdigit <= '9')
-        {
-                putchar(hexdigit);
-                hexdigit++;
-        }
+	while (hexdigit <= '9')
+	{
+		putchar(hexdigit);
+		hexdigit++;
+	}
 	
 	hexdigit = 'a';
 
@@ -25,7 +25,7 @@ int main(void)
 		hexdigit++;
 	}
 
-        putchar('\n');
+	putchar('\n');
 
-        return (0);
+	return (0);
 }
