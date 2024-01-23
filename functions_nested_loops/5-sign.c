@@ -71,3 +71,33 @@ int _isalpha(int c)
 		return (0);
 
 }
+
+/**
+ * print_sign - print the postiveness or negativeness of a number
+ *
+ * @n: a number or something
+ *
+ * Return: 1 if postiveness
+ *         0 if zeroness
+ *         -1 if negativeness
+ */
+
+int print_sign(int n)
+{
+	if (n == 0)
+	{
+		_putchar('0');
+		return (0);
+	}
+	else if (n < 0)
+	{
+		_putchar('-');
+		return (-1);
+	}
+	else
+	{
+		_putchar('+');
+		return (1);
+	}
+
+}

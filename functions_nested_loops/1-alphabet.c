@@ -1,22 +1,19 @@
-
 #include "main.h"
 
-
 /**
- *  print_alphabet - Make the alphabet
- *  Return: void
+ * print_alphabet - print a to z
+ *
  */
 
 void print_alphabet(void)
-
 {
-	char c;
+	int a = 97;
+	int z = 122;
+	int nn;
 
-	for (c= 'a'; c <= 'z'; c++)
+	for (nn = a; nn <= z; nn++)
 	{
-	
-		putchar(c);
-	
+		_putchar(nn);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
