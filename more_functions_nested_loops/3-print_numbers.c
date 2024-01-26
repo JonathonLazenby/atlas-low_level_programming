@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_alphabet - print a to z
+ * print_numbers - print 0 to 9
  *
  */
 
-void print_alphabet(void)
+void print_numbers(void)
 {
 	int a = 48;
 	int z = 57;
