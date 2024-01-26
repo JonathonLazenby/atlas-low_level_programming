@@ -11,8 +11,8 @@
 
 int _isupper(int c)
 {
-	int a = 97;
-	int z = 122;
+	int A = 65;
+	int Z = 90;
 
 	if (c >= A && c <= Z)
 		return (1);
