@@ -4,7 +4,7 @@
  * print_lime - prints a straight line in the terminal
  */
 
-void print_line(int n);
+void print_line(int n)
 {
 	if (n > 0)
 	{
@@ -17,4 +17,3 @@ void print_line(int n);
 	}
 	_putchar('\n');
 }
-
