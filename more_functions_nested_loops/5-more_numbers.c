@@ -9,8 +9,8 @@ void more_numbers(void)
 {
 	char digit;
 	
-	for (digit = '0'; digit <= '14'; digit++)
+	for (digit = '0'; digit <= '9'; digit++)
 	{
-		_putchar(digit)
+		_putchar(digit);
 	}
 }
