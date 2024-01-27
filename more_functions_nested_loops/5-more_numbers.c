@@ -6,7 +6,6 @@
  */
 
 void more_numbers(void);
-
 {
 	char digit;
 	
