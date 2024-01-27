@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_lime - prints a straight line in the terminal
+ * print_line - prints a straight line in the terminal
  */
 
 void print_line(int n)
