@@ -1,12 +1,20 @@
 #include "main.h"
 
 /**
- * _islower - tells if an ascii is a lowercase or not
- *
- * @c: a letter or something.
- *
- * Return: 1 if lowercase
- *         0 is uppercase
+ * print_lime - prints a straight line in the terminal
  */
 
+void print_line(int n);
+{
+	if (n > 0)
+	{
+		int i;
+
+		for (i = 0; i < n; i++)
+		{
+			_putchar('_');
+		}
+	}
+	_putchar('\n');
+}
 
