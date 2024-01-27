@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_most_numbers
+ * print_most_numbers = prints one through nine without two and four
  *
- * @c: a letter or something.
  *
  * Return: nothing
  */
