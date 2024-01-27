@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _print_most_numbers
+ * print_most_numbers
  *
  * @c: a letter or something.
  *
