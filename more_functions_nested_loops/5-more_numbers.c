@@ -8,8 +8,9 @@
 void more_numbers(void)
 {
 	char digit;
-	
-	for (int i = 0; i < 10; i++)
+	int i;
+
+	for (i = 0; i < 10; i++)
 	{
 		for (digit = '0'; digit <= '9'; digit++)
 		{
