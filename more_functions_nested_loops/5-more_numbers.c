@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * _islower - tells if an ascii is a lowercase or not
+ * more_numbers - prints zero to fourteen, ten times
  *
- * @c: a letter or something.
- *
- * Return: 1 if lowercase
- *         0 is uppercase
  */
 
+void more_numbers(void);
 
+{
+	for (digit = '0'; digit => '14'; digit++)
+		_putchar(digit)
+}
