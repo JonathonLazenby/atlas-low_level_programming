@@ -8,7 +8,7 @@
 
 void print_sqaure(int size)
 {
-	if (n > 0)
+	if (size > 0)
 	{
 		int i, j;
 		for (i=0; i < size; i++)
@@ -18,7 +18,7 @@ void print_sqaure(int size)
 				_putchar('#');
 			}
 		}
-	else{
+	}else{
 		_putchar('\n');
 	}
 }
