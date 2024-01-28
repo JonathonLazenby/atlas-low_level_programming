@@ -3,6 +3,8 @@
 /**
  * print_square - prints a square line in the terminal
  *
+ * @size: size of my sqaure in hashtags
+ *
  * Return: nothing
  */
 
