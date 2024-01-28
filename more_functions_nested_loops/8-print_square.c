@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_sqaure - prints a sqaure line in the terminal
+ * print_square - prints a square line in the terminal
  *
  * Return: nothing
  */
 
-void print_sqaure(int size)
+void print_square(int size)
 {
 	if (size > 0)
 	{
