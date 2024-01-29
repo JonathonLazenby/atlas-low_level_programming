@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * strlen - Returns length of a string
+ * _puts - Returns length of a string
  *
- *@*s: a pointer
+ *@s: a pointer
+ *
+ *Return: no return.
  *
  */
 
