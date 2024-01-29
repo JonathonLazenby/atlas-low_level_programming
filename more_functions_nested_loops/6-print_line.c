@@ -3,6 +3,8 @@
 /**
  * print_line - prints a straight line in the terminal
  *
+ *@n: how long the straight line is
+ *
  * Return: nothing
  */
 
