@@ -18,7 +18,13 @@ void print_rev(char *s)
 
 	}
 
-	for (length--; length >= 0; length--)
+	length--;
+
+	while ( length >= 0)
+	{
 		putchar(s[length]);
+		length--;
+	} 
 	putchar('\n');
+
 }
