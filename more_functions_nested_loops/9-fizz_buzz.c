@@ -4,6 +4,7 @@
 /**
  * FizzBuzz - prints fizz buzz tests
  *
+ * Return: 0
  */
 int main(void)
 {
