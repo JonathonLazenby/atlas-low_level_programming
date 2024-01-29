@@ -4,28 +4,33 @@
 /**
  * puts_half - prints a half string.
  *
- * @str: string.
+ * @str: string
  *
  * Return: none
  */
 
 void puts_half(char *str)
 {
-	int count = 0, i;
+	int length, i;
 
-	while (count >= 0)
+	length = 0;
+
+	while (str[length] != '\0')
 	{
-		if (str[count] == '\0')
-			break;
-		count++;
+
+		length++;
 	}
 
-	if (count % 2 == 1)
-		i = count / 2;
+	if (length % 2 == 1)
+		i = length / 2;
 	else
-		i = (count - 1) / 2;
+		i = (length - 1) / 2;
 
-	for (i++; i < count; i++)
+	i++;
+	while (i < length)
+	{
 		putchar(str[i]);
+		i++;
+	}
 	putchar('\n');
 }
