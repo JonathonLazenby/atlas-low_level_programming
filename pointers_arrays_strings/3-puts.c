@@ -3,7 +3,7 @@
 /**
  * _puts - Returns length of a string
  *
- *@s: a pointer
+ *@str: a pointer
  *
  *Return: no return.
  *
