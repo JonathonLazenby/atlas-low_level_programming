@@ -8,6 +8,7 @@
  * Return: none
  */
 void print_triangle(int size)
+
 {
 	int k, m;
 
