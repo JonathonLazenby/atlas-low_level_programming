@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * strlen - Returns length of a string
+ * print_rev - prints a string backwards
  *
  *@*s: a pointer
  *
