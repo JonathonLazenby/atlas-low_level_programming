@@ -4,7 +4,7 @@
 /**
  * print_rev - prints a string backwards
  *
- *@*s: a pointer
+ *@s: a pointer
  *
  */
 
