@@ -31,7 +31,7 @@ int _atoi(char *s)
 	}
 
 	i = length - size;
-	While (i < length)
+	while (i < length)
 	{
 		at = at + ((*(s + i) - 48) * m);
 		m /= 10;
