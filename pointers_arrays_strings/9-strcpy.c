@@ -20,8 +20,9 @@ char *_strcpy(char *dest, char *src)
 	for (length =0; length >= 0 && *(src + length) == '\0' ; length++ )
 	{
 		*(dest + length) = *(src + length);
-		//if (*(src + length) == '\0')
-			//break;
+		/**if (*(src + length) == '\0')
+		
+		  break */
 	}
 	return (dest);
 }
