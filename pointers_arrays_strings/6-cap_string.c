@@ -8,14 +8,20 @@
 
 char *cap_string(char *str)
 {
-	int length = 0;
+	int capNext = 1;
 
-	while (*(str + length) != '\0')
+	while (*str != '\0')
 	{
-		if ((*(str + length) >= 97) && (*(str + length) <= 122))
-			*(str + length) = *(str + length) - 32;
-		length++;
+		if (*str == ' ' || *str == '\t' || *str == '\n' || *str == ',' || *str == ';' || *str == '.' || *str == '!' || *str == '?' || *str == '"' || *str == '(' || *str == ')' || *str == '{' || *str == '}')
+		{
+			capNext = 1
+		}
+		else if (capNext && ((*str >= 'a' && *str <= 'z') || (*str >= 'A' && *str <= 'Z')))
+		{
+			*str = (*str >= 'a' && *str <= 'z') ? (*str - ('a' - 'A')) : *str;
+			capNext = 0;
+		}
+		str++;
 	}
-
-	return (str);
+	Return str;
 }
