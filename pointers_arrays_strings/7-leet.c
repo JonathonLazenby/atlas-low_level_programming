@@ -7,12 +7,10 @@
 char *leet(char *str)
 {
 	int length, i;
-	int nums[5], lowCase[5], upCase[5];
-
-	lowCase = [97, 101, 111, 116, 108];
-	upCase = [65, 69, 79, 84, 76];
+	int nums[] = {52, 51, 48, 55, 49};
+	int lowCase[] = {97, 101, 111, 116, 108};
+	int upCase[] = {65, 69, 79, 84, 76};
 	length = 0;
-	nums = [52, 51, 48, 55, 49];
 
 	while (*(str + length) != '\0')
 	{
