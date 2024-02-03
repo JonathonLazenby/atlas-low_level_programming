@@ -14,7 +14,7 @@ char *cap_string(char *str)
 	{
 		if (*str == ' ' || *str == '\t' || *str == '\n' || *str == ',' || *str == ';' || *str == '.' || *str == '!' || *str == '?' || *str == '"' || *str == '(' || *str == ')' || *str == '{' || *str == '}')
 		{
-			capNext = 1
+			capNext = 1;
 		}
 		else if (capNext && ((*str >= 'a' && *str <= 'z') || (*str >= 'A' && *str <= 'Z')))
 		{
@@ -23,5 +23,5 @@ char *cap_string(char *str)
 		}
 		str++;
 	}
-	Return str;
+	return str;
 }
