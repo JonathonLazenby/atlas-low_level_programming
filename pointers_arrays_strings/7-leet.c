@@ -7,7 +7,7 @@
 char *leet(char *str)
 {
 	int length, i;
-	int nums[], lowCase[], upCase[];
+	int nums[5], lowCase[5], upCase[5];
 
 	lowCase = {97, 101, 111, 116, 108};
 	upCase = {65, 69, 79, 84, 76};
