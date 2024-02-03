@@ -4,25 +4,28 @@
  * Return: to  (dest)
  */
 
-char *leet(char *s)
+char *leet(char *str)
 {
-	int count = 0, i;
-	int low_letters[] = {97, 101, 111, 116, 108};
-	int upp_letters[] = {65, 69, 79, 84, 76};
-	int numbers[] = {52, 51, 48, 55, 49};
+	int length, i;
+	length = 0;
+	int nums[] = {52, 51, 48, 55, 49};
+	int lowCase[] = {97, 101, 111, 116, 108};
+	int upCase[] = {65, 69, 79, 84, 76};
 
-	while (*(s + count) != '\0')
+	while (*(str + length) != '\0')
 	{
-		for (i = 0; i < 5; i++)
+		i = 0;
+		while (i < 5)
 		{
-			if (*(s + count) == low_letters[i] || *(s + count) == upp_letters[i])
+			if (*(str + length) == lowCase[i] || *(str + length) == upCase[i])	
 			{
-				*(s + count) = numbers[i];
+				*(str + length) = nums[i];
 				break;
 			}
+			i++;
 		}
-		count++;
+		length++;
 	}
 
-	return (s);
+	return (str);
 }
