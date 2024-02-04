@@ -4,7 +4,7 @@
  * Return: to  (dest)
  */
 
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
 {
 	while (*s != '\0')
 	{
