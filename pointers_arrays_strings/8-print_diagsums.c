@@ -9,7 +9,7 @@
  *
  */
 
-void print_diagsums(int *a, int size);
+void print_diagsums(int *a, int size)
 {
 	int main_diagSum = 0;
 	int anti_diagSum = 0;
