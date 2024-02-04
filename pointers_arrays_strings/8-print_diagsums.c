@@ -20,6 +20,6 @@ void print_diagsums(int *a, int size)
 		main_diagSum += *(a + i * size + i);
 		anti_diagSum += *(a + i * size + (size - 1 - i));
 	}
-	printf("%d", main_diagSum);
+	printf("%d, ", main_diagSum);
 	printf("%d", anti_diagSum);
 }
