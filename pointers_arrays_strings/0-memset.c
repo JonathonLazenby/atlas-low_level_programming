@@ -7,7 +7,6 @@
  *@b: byte
  *
  *@n: bytes entred
-
  * Return: to dest
  */
 
