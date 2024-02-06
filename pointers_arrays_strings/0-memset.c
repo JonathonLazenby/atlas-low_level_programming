@@ -1,7 +1,14 @@
 #include "main.h"
 /**
- * _strcat - concatenates two strings,
- * Return: to  (dest)
+ * _memset - concatenates two strings,
+ * 
+ *@s: memory
+ *
+ *@b: byte
+ *
+ *@n: bytes entred
+
+ * Return: to dest
  */
 
 char *_memset(char *s, char b, unsigned int n)
