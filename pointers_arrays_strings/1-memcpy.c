@@ -1,6 +1,12 @@
 #include "main.h"
 /**
- * _strcat - concatenates two strings,
+ * _memcpy - copies memory
+ *
+ * @dest: dest mem area
+ *
+ *@src: source area
+ *
+ *@n: bytes
  * Return: to  (dest)
  */
 
