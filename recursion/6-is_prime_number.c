@@ -22,7 +22,7 @@ int prime_helper(int n, int div)
 }
 
 
-int is_prime_number(int n);
+int is_prime_number(int n)
 {
 	return (prime_helper(n, n / 2));
 }
