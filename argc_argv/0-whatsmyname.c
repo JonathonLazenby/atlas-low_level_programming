@@ -11,8 +11,11 @@
  * Return: to dest
  */
 
-int main()
+int main(int argc, char *argv[])
 {
-	printf( __FILE__);
+	if ( argc > 0)
+	{
+		printf( argv[0]);
+	}
 	return (0);
 }      
