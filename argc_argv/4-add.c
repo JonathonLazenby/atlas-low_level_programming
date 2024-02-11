@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
  * _memset - concatenates two strings,
  *
@@ -33,7 +34,7 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
-		sum += atio(argv[i]);
+		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 	return (0);
