@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- * _memset - concatenates two strings,
+ * _pow_recursion - returns x to power of y
  *
- *@s: memory
+ *@x: interger getting rasied to certain power
  *
- *@b: byte
+ *@y: certain power
  *
- *@n: bytes entred
- * Return: to dest
+ * Return: value of x being raised to the power of y
  */
 
 int _pow_recursion(int x, int y)
