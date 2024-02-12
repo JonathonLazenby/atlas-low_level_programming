@@ -2,9 +2,9 @@
 /**
  * is_prime_number - figuires out if its a prime number
  *
- * prime_helper - helps function operate
+ * @prime_helper: helps function operate
  *
- * div - works with prime number
+ *@div: - works with prime number
  *
  *@n: possible prime number
  *
