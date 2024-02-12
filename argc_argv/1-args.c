@@ -1,19 +1,18 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _memset - concatenates two strings,
+ * main - prints number of arguments passed
  *
- *@s: memory
+ *@argv: items
  *
- *@b: byte
+ *@argc: num of arguements
  *
- *@n: bytes entred
- * Return: to dest
+ * Return: num of arguements
  */
 
-int main( int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%d\n", argc -1);
+	printf("%d\n", argc - 1);
 	(void)argv;
 	return (0);
 }
