@@ -3,14 +3,13 @@
 #include <stdlib.h>
 #include <ctype.h>
 /**
- * _memset - concatenates two strings,
+ * main - adds positive numbers
  *
- *@s: memory
+ *@argc: items
  *
- *@b: byte
+ *@argv: added numbers
  *
- *@n: bytes entred
- * Return: to dest
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
