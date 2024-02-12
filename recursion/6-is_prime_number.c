@@ -2,6 +2,10 @@
 /**
  * is_prime_number - figuires out if its a prime number
  *
+ * prime_helper - helps function operate
+ *
+ * div - works with prime number
+ *
  *@n: possible prime number
  *
  * Return: 1 or 0
