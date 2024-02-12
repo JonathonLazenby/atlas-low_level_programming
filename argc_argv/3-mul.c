@@ -2,14 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * _memset - concatenates two strings,
+ * main  - multiplies two numbers
  *
- *@s: memory
+ *@argc - items
  *
- *@b: byte
+ *@argv - numbers multiplied
  *
- *@n: bytes entred
- * Return: to dest
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
