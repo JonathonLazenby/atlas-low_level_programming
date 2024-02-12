@@ -1,13 +1,10 @@
 #include "main.h"
 /**
- * _memset - concatenates two strings,
+ * is_prime_number - figuires out if its a prime number
  *
- *@s: memory
+ *@n: possible prime number
  *
- *@b: byte
- *
- *@n: bytes entred
- * Return: to dest
+ * Return: 1 or 0
  */
 
 int prime_helper(int n, int div)
