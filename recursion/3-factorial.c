@@ -1,13 +1,10 @@
 #include "main.h"
 /**
- * _memset - concatenates two strings,
+ * factorial - returns factorial of given number
  *
- *@s: memory
+ *@n: number
  *
- *@b: byte
- *
- *@n: bytes entred
- * Return: to dest
+ * Return: factorial
  */
 
 int factorial(int n)
