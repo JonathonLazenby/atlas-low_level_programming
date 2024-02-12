@@ -1,13 +1,10 @@
 #include "main.h"
 /**
- * _memset - concatenates two strings,
+ * _puts_recursion - prints string followed by new line
  *
- *@s: memory
+ *@s: string printed
  *
- *@b: byte
- *
- *@n: bytes entred
- * Return: to dest
+ * Return: none
  */
 
 void _puts_recursion(char *s)
