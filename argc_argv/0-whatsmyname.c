@@ -1,19 +1,18 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _memset - concatenates two strings,
+ * _main - prints program name followed by a new line
  *
- *@s: memory
+ *@argc: items
  *
- *@b: byte
+ *@argv: name of programs
  *
- *@n: bytes entred
- * Return: to dest
+ * Return: name
  */
 
 int main(int argc, char *argv[])
 {
-	if ( argc > 0)
+	if (argc > 0)
 	{
 		printf("%s\n", argv[0]);
 	}
