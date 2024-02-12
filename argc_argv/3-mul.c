@@ -4,9 +4,9 @@
 /**
  * main  - multiplies two numbers
  *
- *@argc - items
+ *@argc: items
  *
- *@argv - numbers multiplied
+ *@argv:  numbers multiplied
  *
  * Return: 0
  */
