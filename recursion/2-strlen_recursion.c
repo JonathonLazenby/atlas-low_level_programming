@@ -1,13 +1,10 @@
 #include "main.h"
 /**
- * _memset - concatenates two strings,
+ * _strlen_recursion - returns length of string
  *
- *@s: memory
+ *@s: string
  *
- *@b: byte
- *
- *@n: bytes entred
- * Return: to dest
+ * Return: nothing
  */
 
 int _strlen_recursion(char *s)
@@ -16,6 +13,6 @@ int _strlen_recursion(char *s)
 	{
 		return (0);
 	}
-	
-	return 1 + _strlen_recursion(s + 1);
+
+	return (1 + _strlen_recursion(s + 1));
 }
