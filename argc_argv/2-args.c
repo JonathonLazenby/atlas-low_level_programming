@@ -1,21 +1,20 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _memset - concatenates two strings,
+ * main - prints all arguements passed
  *
- *@s: memory
+ *@argc: items
  *
- *@b: byte
+ *@argv: arguments recived printed
  *
- *@n: bytes entred
- * Return: to dest
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
 	int i;
-	
-	for(i = 0; i < argc; ++i)
+
+	for( i = 0; i < argc; ++i )
 	{
 		printf("%s\n", argv[i]);
 	}
