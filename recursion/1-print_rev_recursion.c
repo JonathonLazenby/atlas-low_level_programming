@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * reset_to_98 - updates int parameters and values
+ * _print_rev_recursion - prints sting reversed
  *
- *@n: a pointer
+ *@s: a string
  *
+ * return: nothing
  */
 
 void _print_rev_recursion(char *s)
