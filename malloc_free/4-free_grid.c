@@ -3,9 +3,9 @@
 
 /**
  * free_grid -frees a 2 demensional grid previsouly created
- * 
+ *
  * @grid: addy of grid
- * 
+ *
  *@height: hieght of grid
  *
  * return: nothing
