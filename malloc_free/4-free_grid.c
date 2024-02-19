@@ -2,11 +2,13 @@
 #include <stdlib.h>
 
 /**
- * print_alphabet - prints the alphabet, in lowercase,
- * followed by a newline using only _putchar.
+ * free_grid -frees a 2 demensional grid previsouly created
+ * 
+ * @grid: addy of grid
+ * 
+ *@height: hieght of grid
  *
- * Return: Always 0
- *
+ * return: nothing
  */
 
 void free_grid(int **grid, int height)
