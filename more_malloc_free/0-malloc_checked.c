@@ -2,21 +2,22 @@
 #include <stdlib.h>
 
 /**
- * print_alphabet - prints the alphabet, in lowercase,
- * followed by a newline using only _putchar.
+ * malloc_checked- allocates memory using malloc
  *
- * Return: Always 0
+ *@b: data
+ *
+ * Return: ptr
  *
  */
 
 void *malloc_checked(unsigned int b)
 {
 	void *ptr;
-	
+
 	ptr = malloc(b);
 
 	if (ptr == NULL)
 		exit(98);
 
-	return(ptr);
+	return (ptr);
 }
