@@ -10,5 +10,6 @@
 	int *array_range(int min, int max);
 	int _strlen(char *s);
 	char *_strncat(char *dest, char *src, int n);
+	char *_strcpy(char *dest, char *src);
 
 #endif
