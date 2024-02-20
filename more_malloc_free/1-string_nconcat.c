@@ -34,32 +34,31 @@ int _strlen(char *s)
 	return (length);
 } 
 
-#include<stdio.h>
 #include "main.h"
 /**
- * _strcpy - copies the string pointed to by src,
- *
- * including the terminating null byte, to the
- * buffer pointed to by dest.
- *
- * @dest: destination.
- *
- * @src: source
- *
- * Return: the pointer to dest
+ * _strncat - concatenates two strings,
+ * Return: to  (dest)
  */
 
-char *_strcpy(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-	int length;
+	char *original_dest = dest;
 
-	for (length = 0; length >= 0; length++)
+	while (*dest != '\0')
 	{
-		*(dest + length) = *(src + length);
-		if (*(src + length) == '\0')
-			break;
+		dest++;
 	}
-	return (dest);
+	
+	while (*src != '\0' && n > 0)
+	{
+		*dest = *src;
+		dest++;
+		src++;
+		n--;
+	}
+	*dest = '\0';
+
+	return original_dest;
 }
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
