@@ -10,6 +10,58 @@
  *
  */
 
+#include "main.h"
+
+/**
+ * _strlen - Returns length of a string
+ *
+ *@s: a pointer
+ *
+ *Return: length of string
+ *
+ */
+
+int _strlen(char *s)
+{
+	int length;
+
+	length = 0;
+	while (*s != '\0')
+	{
+		length++;
+		s++;
+	}
+	return (length);
+} 
+
+#include<stdio.h>
+#include "main.h"
+/**
+ * _strcpy - copies the string pointed to by src,
+ *
+ * including the terminating null byte, to the
+ * buffer pointed to by dest.
+ *
+ * @dest: destination.
+ *
+ * @src: source
+ *
+ * Return: the pointer to dest
+ */
+
+char *_strcpy(char *dest, char *src)
+{
+	int length;
+
+	for (length = 0; length >= 0; length++)
+	{
+		*(dest + length) = *(src + length);
+		if (*(src + length) == '\0')
+			break;
+	}
+	return (dest);
+}
+
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	size_t len_s1;
