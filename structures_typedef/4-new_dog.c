@@ -9,20 +9,23 @@
  *
  */
 
-char* my_strdup(const char* str) {
+char* my_strdup(const char* str)
+{
+    char *new_str, *q;
     int len = 0;
     const char* p = str;
+    
     while (*p) {
         len++;
         p++;
     }
-    
-    char* new_str = (char*)malloc(len + 1);
+ 
+    new_str = (char*)malloc(len + 1);
     if (new_str == NULL) {
         return NULL;
     }
     
-    char* q = new_str;
+    q = new_str;
     p = str;
     while (*p) {
         *q = *p;
