@@ -1,4 +1,5 @@
 #include "main.h"
+#include "dog.h"
 
 /**
  * print_alphabet - print a to z
