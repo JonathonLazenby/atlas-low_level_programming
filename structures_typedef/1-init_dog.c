@@ -1,5 +1,7 @@
 #include "main.h"
 #include "dog.h"
+#include <stddef.h>
+#include <stdio.h>
 
 /**
  * print_alphabet - print a to z
