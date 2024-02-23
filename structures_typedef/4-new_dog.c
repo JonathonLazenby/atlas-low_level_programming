@@ -9,32 +9,29 @@
  *
  */
 
-#include "main.h"
-/**
- * _strncpy - copies a string
- * Return: to  (dest)
- */
-
-char *_strncpy(char *dest, char *src, int n)
-{
-	char *original_dest = dest;
-
-	while (n > 0 && *src != '\0')
-	{
-		*dest = *src;
-		dest++;
-		src++;
-		n--;
-	}
-	
-	while (n > 0)
-	{
-		*dest = '\0';
-		dest++;
-		n--;
-	}
-
-	return original_dest;
+char* my_strdup(const char* str) {
+    int len = 0;
+    const char* p = str;
+    while (*p) {
+        len++;
+        p++;
+    }
+    
+    char* new_str = (char*)malloc(len + 1);
+    if (new_str == NULL) {
+        return NULL;
+    }
+    
+    char* q = new_str;
+    p = str;
+    while (*p) {
+        *q = *p;
+        p++;
+        q++;
+    }
+    *q = '\0';
+    
+    return new_str;
 }
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -50,8 +47,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	
 	if (newdog != NULL)
 	{
-		_strncpy(newdog->name, name);
-		_strncpy(newdog->owner, owner);
+		newdog->name = my_strdup(name);
+		newdog->owner = my_strdup(owner);
 		newdog->age = age;
 	}
 	return (newdog);
