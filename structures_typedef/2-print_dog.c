@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include "dog.h"
-#include <stddef.h>
+
 /**
  * print_alphabet - print a to z
  *
@@ -11,8 +11,8 @@
 {
 	if (d != NULL)
 	{
-		printf(d->name ? d->name : "nil");
-		printf(d->age);
-		printf(d->owner ? d->owner : "nil");
+		printf("%s",d->name ? d->name : "nil");
+		printf("%.2f",d->age);
+		printf("%s",d->owner ? d->owner : "nil");
 	}
 }
