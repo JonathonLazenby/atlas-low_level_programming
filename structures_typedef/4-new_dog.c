@@ -9,32 +9,32 @@
  *
  */
 
-#include<stdio.h>
 #include "main.h"
 /**
- * _strcpy - copies the string pointed to by src,
- *
- * including the terminating null byte, to the
- * buffer pointed to by dest.
- *
- * @dest: destination.
- *
- * @src: source
- *
- * Return: the pointer to dest
+ * _strncpy - copies a string
+ * Return: to  (dest)
  */
 
-char *_strcpy(char *dest, char *src)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int length;
+	char *original_dest = dest;
 
-	for (length = 0; length >= 0; length++)
+	while (n > 0 && *src != '\0')
 	{
-		*(dest + length) = *(src + length);
-		if (*(src + length) == '\0')
-			break;
+		*dest = *src;
+		dest++;
+		src++;
+		n--;
 	}
-	return (dest);
+	
+	while (n > 0)
+	{
+		*dest = '\0';
+		dest++;
+		n--;
+	}
+
+	return original_dest;
 }
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -50,8 +50,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	
 	if (newdog != NULL)
 	{
-		_strcpy(newdog->name, name);
-		_strcpy(newdog->owner, owner);
+		_strncpy(newdog->name, name);
+		_strncpy(newdog->owner, owner);
 		newdog->age = age;
 	}
 	return (newdog);
