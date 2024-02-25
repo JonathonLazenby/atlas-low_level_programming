@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 			result = op_mod(num1, num2);
 			break;
 		default:
-			printf("Error\n")
+			printf("Error\n");
 			return (99);
 	}
 
