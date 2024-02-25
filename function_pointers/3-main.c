@@ -19,19 +19,19 @@ int main(int argc, char *argv[])
 	switch (operator)
 	{
 		case '+':
-			result = op_add(num1, num2)
+			result = op_add(num1, num2);
 			break;
 		case '-':
-			result = op_sub(num1, num2)
+			result = op_sub(num1, num2);
 			break;
 		case '*':
-			result = op_mul(num1, num2)
+			result = op_mul(num1, num2);
 			break;
 		case '/':
-			result = op_div(num1, num2)
+			result = op_div(num1, num2);
 			break;
 		case '%':
-			result = op_mod(num1, num2)
+			result = op_mod(num1, num2);
 			break;
 		default:
 			return (99);
