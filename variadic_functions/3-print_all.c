@@ -23,11 +23,6 @@ void print_all(const char * const format, ...)
 
 	while (format && format[i])
 	{
-		if (!first)
-		{	
-			printf(", ");
-		}
-		first = 0;
 
 		switch (format[i])
 		{
