@@ -21,11 +21,6 @@ int op_sub(int a, int b)
 
 int op_mul(int a, int b)
 {
-	if (a == 98 && b == 98)
-	{
-		printf("Error\n");
-		return (99);
-	}
 	return (a * b);
 }
 
