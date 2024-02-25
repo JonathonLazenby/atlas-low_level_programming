@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 #include <stdio.h>
-#include <strarg.h>
+#include <stdarg.h>
 
 /**
  * print_alphabet - prints the alphabet, in lowercase,
