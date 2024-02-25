@@ -1,4 +1,4 @@
-#include "calc.h"
+#include "3-calc.h"
 
 /**
  * print_alphabet - prints the alphabet, in lowercase,
