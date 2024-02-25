@@ -1,5 +1,5 @@
 #include "3-calc.h"
-
+#include <stdlib.h>
 
 /**
  * print_alphabet - prints the alphabet, in lowercase,
