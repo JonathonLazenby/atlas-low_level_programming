@@ -50,7 +50,7 @@ void print_all(const char * const format, ...)
 				}
 				else
 				{
-					printf("%s", str)
+					printf("%s", str);
 				}
 				break;
 		}
