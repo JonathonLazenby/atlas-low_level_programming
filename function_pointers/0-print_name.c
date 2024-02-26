@@ -3,11 +3,9 @@
 #include <string.h>
 
 /**
- * print_alphabet - prints the alphabet, in lowercase,
- * followed by a newline using only _putchar.
- *
- * Return: Always 0
- *
+ * print_name - prints name
+ * @name: what gets printed
+ * Return: none
  */
 
 void print_name(char *name, void (*f)(char *))
