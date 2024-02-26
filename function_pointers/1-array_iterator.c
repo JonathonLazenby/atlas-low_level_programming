@@ -3,11 +3,11 @@
 #include <string.h>
 
 /**
- * print_alphabet - prints the alphabet, in lowercase,
- * followed by a newline using only _putchar.
- *
+ * array_iterator - executes a function depending on the parameters
+ * @array: parameter
+ * @size: parameter
+ * @action: parameter
  * Return: Always 0
- *
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
