@@ -5,6 +5,7 @@
 /**
  * print_name - prints name
  * @name: what gets printed
+ * @f: pointer
  * Return: none
  */
 
