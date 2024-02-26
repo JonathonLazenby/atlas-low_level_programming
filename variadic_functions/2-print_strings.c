@@ -3,9 +3,9 @@
 #include <stdarg.h>
 
 /**
- * print_alphabet - prints the alphabet, in lowercase,
- * followed by a newline using only _putchar.
- *
+ * print_strings - prints strings followed by a new line
+ * @separator: parameter
+ * @n: parameter
  * Return: Always 0
  *
  */
@@ -21,7 +21,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		str = va_arg(args, char *);
-		
+
 		if (str != NULL)
 		{
 			printf("%s", str);
