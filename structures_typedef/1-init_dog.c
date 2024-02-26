@@ -4,13 +4,16 @@
 #include <stdio.h>
 
 /**
- * print_alphabet - print a to z
- *
+ * init_dog - initializes a variable of type struct dog
+ *@d: pointer struct dog
+ *@name: object to get initialized
+ *@age: object to get initialized
+ *@owner: object to get initialized
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if ( d != NULL)
+	if (d != NULL)
 	{
 		d->name = name;
 		d->age = age;

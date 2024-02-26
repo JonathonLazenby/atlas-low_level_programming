@@ -2,11 +2,13 @@
 #define DOGHEADER
 
 /**
- * malloc_checked- allocates memory using malloc
+ * struct dog- my structure
  *
- *@b: data
+ *@name: 1st
+ *@age: 2nd
+ *@owner: 3rd
  *
- * Return: ptr
+ * description - a dogs info
  */
 
 struct dog
