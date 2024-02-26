@@ -5,7 +5,7 @@
 /**
  * print_numbers - prints numbers followed by a new line
  * @n: parameter
- * @seperator: parameter
+ * @separator: parameter
  *
  * Return: Always 0
  *
