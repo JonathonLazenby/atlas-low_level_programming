@@ -5,8 +5,8 @@
 #include "dog.h"
 
 /**
- * print_alphabet - print a to z
- *
+ * free_dog - frees dogs
+ *@d: what gets freed
  */
 
 void free_dog(dog_t *d)
