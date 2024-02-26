@@ -3,8 +3,8 @@
 #include <stdarg.h>
 
 /**
- * print_alphabet - prints the alphabet, in lowercase,
- * followed by a newline using only _putchar.
+ * sum_them_all - returns the sum
+ * @n: parameters
  *
  * Return: Always 0
  *
