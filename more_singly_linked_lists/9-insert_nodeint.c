@@ -14,4 +14,4 @@ int _putchar(char c)
 	return (write(1, &c, 1));
 }
 
-size_t print_list(const list_t *h)
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)

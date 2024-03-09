@@ -14,4 +14,4 @@ int _putchar(char c)
 	return (write(1, &c, 1));
 }
 
-size_t print_list(const list_t *h)
+list_t *add_node(list_t **head, const char *str)
