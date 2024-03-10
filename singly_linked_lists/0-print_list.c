@@ -7,25 +7,33 @@
  * @d: a pointer to print
  */
 
+int _strlen(char *s)
+{
+	int length;
+
+	length = 0;
+	while (*s != '\0')
+	{
+		length++;
+		s++;
+	}
+	return (length);
+} 
+
 size_t print_list(const list_t *h)
 {
-	size_t node_count;
-	
-	node_count = 0;
+	size_t node_count, str_len;
 
-	printf("[");
+	node_count = 0;
 	
 	while (h != NULL)
 	{
-		printf("'%s'", h -> str);
+		str_len = (h -> str != NULL) ? _strlen(h -> str): 0;
+
+		printf("[%lu] %s\n", str_len, (h -> str != NULL) ? h -> str: "(nil)");
 		node_count++;
 		h = h -> next;
-		if (h != NULL)
-		{
-			printf(", ");
-		}
 	}
-	printf("]\n");
 
 	return(node_count);
 }
