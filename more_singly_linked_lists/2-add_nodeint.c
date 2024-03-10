@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "lists.h"
-
+#include <stdlib.h>
 /**
  * print_dog - prints a struct dog
  *
