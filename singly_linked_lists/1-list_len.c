@@ -9,9 +9,16 @@
 
 #include <unistd.h>
 
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
-
 size_t list_len(const list_t *h)
+{
+	size_t count_node;
+
+	count_node = 0;
+
+	while (h != NULL)
+	{
+		count_node++;
+		h = h -> next;
+	}
+	return(count_node);
+}
