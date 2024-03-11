@@ -8,6 +8,8 @@
  * @head: 1st element in said list
  *
  * @str: dup string
+ *
+ * Return: The address of the new element
  */
 
 
