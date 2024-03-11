@@ -30,7 +30,7 @@ int _strlen(char *s)
  *
  * @h: first element
  *
- * return: # of nodes
+ * Return: # of nodes
  */
 
 size_t print_list(const list_t *h)
