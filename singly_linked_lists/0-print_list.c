@@ -43,10 +43,10 @@ size_t print_list(const list_t *h)
 	{
 		str_len = (h->str != NULL) ? _strlen(h->str) : 0;
 
-		printf("[%lu] %s\n", str_len, (h->str != NULL) ? h->str: "(nil)");
+		printf("[%lu] %s\n", str_len, (h->str != NULL) ? h->str : "(nil)");
 		node_count++;
 		h = h->next;
 	}
 
-	return(node_count);
+	return (node_count);
 }
