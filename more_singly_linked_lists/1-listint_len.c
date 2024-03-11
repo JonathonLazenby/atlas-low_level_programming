@@ -2,9 +2,11 @@
 #include "lists.h"
 
 /**
- * print_dog - prints a struct dog
+ * listint_len - returns # of elements in said linked list
  *
- * @d: a pointer to print
+ * @h: list to be checked
+ *
+ * Return: # of elements
  */
 
 #include <unistd.h>
@@ -18,7 +20,7 @@ size_t listint_len(const listint_t *h)
 	while (h != NULL)
 	{
 		count_node++;
-		h = h -> next;
+		h = h->next;
 	}
-	return(count_node);
+	return (count_node);
 }
