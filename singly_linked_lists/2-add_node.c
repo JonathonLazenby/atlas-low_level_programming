@@ -4,12 +4,14 @@
 #include "lists.h"
 
 /**
- * print_dog - prints a struct dog
+ * add_node - adds a new node to beginning of list_t
  *
- * @d: a pointer to print
+ * @head: first element
+ *
+ * @str: dup string
+ *
+ * Return: the address of the new element
  */
-
-#include <unistd.h>
 
 list_t *add_node(list_t **head, const char *str)
 {
