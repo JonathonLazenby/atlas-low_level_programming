@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * print_dog - prints a struct dog
+ * free_listint - frees listint_t
  *
- * @d: a pointer to print
+ * @head: 1st element
  */
 
 void free_listint(listint_t *head)
