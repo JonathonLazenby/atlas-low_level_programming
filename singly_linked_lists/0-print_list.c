@@ -23,21 +23,29 @@ int _strlen(char *s)
 		s++;
 	}
 	return (length);
-} 
+}
+
+/**
+ * print_list - prints all elements of list_t
+ *
+ * @h: first element
+ *
+ * return: # of nodes
+ */
 
 size_t print_list(const list_t *h)
 {
 	size_t node_count, str_len;
 
 	node_count = 0;
-	
+
 	while (h != NULL)
 	{
-		str_len = (h -> str != NULL) ? _strlen(h -> str): 0;
+		str_len = (h->str != NULL) ? _strlen(h->str) : 0;
 
-		printf("[%lu] %s\n", str_len, (h -> str != NULL) ? h -> str: "(nil)");
+		printf("[%lu] %s\n", str_len, (h->str != NULL) ? h->str: "(nil)");
 		node_count++;
-		h = h -> next;
+		h = h->next;
 	}
 
 	return(node_count);
