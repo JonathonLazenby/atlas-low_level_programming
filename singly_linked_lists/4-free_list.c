@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * print_dog - prints a struct dog
+ * free_list  - frees list_t
  *
- * @d: a pointer to print
+ * @head: 1st list
  */
 
 #include <unistd.h>
@@ -16,8 +16,8 @@ void free_list(list_t *head)
 
 	while (head != NULL)
 	{
-		next_node = head -> next;
-		free(head -> str);
+		next_node = head->next;
+		free(head->str);
 		free(head);
 		head = next_node;
 	}
