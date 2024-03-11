@@ -16,7 +16,7 @@ int get_bit(unsigned long int n, unsigned int index)
 	for (i = size; i >= 0; i--)
 	{
 		mask = 1UL << i;
-		if (n & mask)
+		if (n && mask)
 			_putchar('1');
 		else
 			_putchar('0');
