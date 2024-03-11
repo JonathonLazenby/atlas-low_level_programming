@@ -5,7 +5,7 @@
 /**
  * add_node_end - adds new node at the end of said list
  *
- * @head: 
+ * @head: 1st element in said list
  *
  * @str: dup string
  */
