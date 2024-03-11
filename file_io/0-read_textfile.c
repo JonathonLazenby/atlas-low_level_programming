@@ -42,7 +42,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	free(buffer);
 	fclose(file);
 
-	If (byteswritten == -1 || (size_t) byteswritten != bytesread)
+	if (byteswritten == -1 || (size_t) byteswritten != bytesread)
 	{
 		return(0);
 	}
