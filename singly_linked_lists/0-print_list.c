@@ -4,9 +4,12 @@
 #include "lists.h"
 
 /**
- * print_dog - prints a struct dog
+ * _strlen - Returns length of a string
  *
- * @d: a pointer to print
+ *@s: a pointer
+ *
+ *Return: length of string
+ *
  */
 
 int _strlen(char *s)
