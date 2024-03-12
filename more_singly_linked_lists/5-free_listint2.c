@@ -2,9 +2,11 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
- * print_dog - prints a struct dog
+ * free_listint2 - frees listint_t
  *
- * @d: a pointer to print
+ * @head: 1st element
+ *
+ * Return: freed list
  */
 
 void free_listint2(listint_t **head)
