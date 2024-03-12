@@ -2,9 +2,11 @@
 #include "lists.h"
 
 /**
- * print_dog - prints a struct dog
+ * sum_listint - returns sum of all data of said linked list
  *
- * @d: a pointer to print
+ * @head: 1st element
+ *
+ * Return: sum of data
  */
 
 int sum_listint(listint_t *head)
@@ -17,5 +19,5 @@ int sum_listint(listint_t *head)
 		sum += head->n;
 		head = head->next;
 	}
-	return(sum);
+	return (sum);
 }
