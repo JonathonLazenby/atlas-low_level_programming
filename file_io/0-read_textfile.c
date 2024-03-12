@@ -2,7 +2,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <unistd.h>
-
+#include <fcntl.h>
 /**
  * print_dog - prints a struct dog
  *
@@ -18,7 +18,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (filename == NULL)
 		return(0);
 	
-	file = popen(filename, "r");
+	file = open(filename, "r");
 	
 	if (file == NULL)
 		return(0);
