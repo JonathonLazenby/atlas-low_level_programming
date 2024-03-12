@@ -8,7 +8,7 @@
  *
  * @idx: new node location
  *
- * @n: node 
+ * @n: node
  *
  * Return: the address of the node
  */
