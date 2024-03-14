@@ -26,6 +26,7 @@ void hash_table_print(const hash_table_t *ht)
 	{
 		printf("before");
 		current = ht->array[i];
+		printf("'%s'", current->key);
 		while (current != NULL)
 		{
 			printf("'%s': '%s'", current->key, current->value);
