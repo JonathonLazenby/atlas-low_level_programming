@@ -24,7 +24,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	while (current != NULL)
 	{
-		if (strcmy(current->key, key) == 0)
+		if (strcpy(current->key, key) == 0)
 		{
 			free(current->value);
 			current->value = strdup(value);
