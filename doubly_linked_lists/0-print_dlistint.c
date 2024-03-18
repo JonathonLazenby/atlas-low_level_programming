@@ -2,9 +2,9 @@
 #include "lists.h"
 
 /**
- * list_len - # of elements in said linked list
+ * print_dlistint - prints all elements of a list
  *
- * @h: checked list
+ * @h: node head
  *
  * Return: # of elements
  */
