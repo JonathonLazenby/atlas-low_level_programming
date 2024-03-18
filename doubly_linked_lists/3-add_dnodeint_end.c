@@ -6,9 +6,11 @@
 /**
  * list_len - # of elements in said linked list
  *
- * @h: checked list
+ * @head: node head
  *
- * Return: # of elements
+ * @n: new node value
+ *
+ * Return: address of new element
  */
 
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
@@ -18,7 +20,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 
 	if (new_node == NULL)
 	{
- 		return (NULL);
+		return (NULL);
 	}
 	new_node->n = n;
 	new_node->next = NULL;
