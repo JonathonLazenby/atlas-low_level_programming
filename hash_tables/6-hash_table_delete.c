@@ -4,11 +4,9 @@
 #include <string.h>
 
 /**
- * list_len - # of elements in said linked list
+ * hash_table_delete - deletes a hash table
  *
- * @h: checked list
- *
- * Return: # of elements
+ * @ht: hash table location
  */
 
 void hash_table_delete(hash_table_t *ht)
