@@ -3,11 +3,11 @@
 #include "lists.h"
 
 /**
- * list_len - # of elements in said linked list
+ * sum_dlistint - returns the sum of all data of linked list
  *
- * @h: checked list
+ * @head: head node
  *
- * Return: # of elements
+ * Return: sum of all data from a linked list
  */
 
 int sum_dlistint(dlistint_t *head)
