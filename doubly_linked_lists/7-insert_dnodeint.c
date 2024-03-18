@@ -3,16 +3,20 @@
 #include "lists.h"
 
 /**
- * list_len - # of elements in said linked list
+ * insert_dnodeint_at_index - inserts new node at given position
  *
  * @h: checked list
  *
- * Return: # of elements
+ * @idx: place to insert
+ *
+ * @n: new node value
+ *
+ * Return: address of new node
  */
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
-	dlistint_t *new_node = malloc(sizeof(dlistint_t));
+	dlistint_t *n ew_node = malloc(sizeof(dlistint_t));
 	dlistint_t *current = *h;
 
 	if (idx == 0)
@@ -37,7 +41,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	new_node->n = n;
 	new_node->prev = current;
 	new_node->next = current->next;
-	
+
 	if (current->next != NULL)
 	{
 		current->next->prev = new_node;
