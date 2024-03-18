@@ -2,16 +2,17 @@
 #include "hash_tables.h"
 
 /**
- * list_len - # of elements in said linked list
+ * hash_table_create - creates a hash table
  *
- * @h: checked list
+ * @size: array size
  *
- * Return: # of elements
+ * Return: a pointer to new hash table
  */
 
 hash_table_t *hash_table_create(unsigned long int size)
 {
 	unsigned long int i;
+
 	hash_table_t *hash_table = malloc(sizeof(hash_table_t));
 
 	if (hash_table == NULL)
