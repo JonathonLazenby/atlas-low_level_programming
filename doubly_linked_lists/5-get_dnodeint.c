@@ -4,7 +4,7 @@
 
 /**
  * get_dnodeint_at_index - returns nth node of a linked list
- * 
+ *
  * @head: head node
  *
  * @index: node to get
