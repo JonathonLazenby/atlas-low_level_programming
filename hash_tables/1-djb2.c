@@ -3,11 +3,11 @@
 #include "hash_tables.h"
 
 /**
- * list_len - # of elements in said linked list
+ * hash_djb2 - impletes certain algorithim
  *
- * @h: checked list
+ * @str: specific string to be processed
  *
- * Return: # of elements
+ * Return: hash
  */
 
 unsigned long int hash_djb2(const unsigned char *str)
