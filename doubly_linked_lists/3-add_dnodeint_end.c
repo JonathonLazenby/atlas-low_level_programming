@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * list_len - # of elements in said linked list
+ * add_dnodeint_end - adds new node at end of list
  *
  * @head: node head
  *
