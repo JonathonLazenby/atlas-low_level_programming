@@ -4,11 +4,13 @@
 #include "lists.h"
 
 /**
- * list_len - # of elements in said linked list
+ * delete_dnodeint_at_index - deletes node at index of linked list
  *
- * @h: checked list
+ * @head: head node
  *
- * Return: # of elements
+ * @index: place to be deleted
+ *
+ * Return: 1 if succsesful, -1 if not
  */
 
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
