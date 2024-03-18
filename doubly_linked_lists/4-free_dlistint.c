@@ -4,7 +4,7 @@
 /**
  * free_dlistint - frees a list
  *
- * @h: node head
+ * @head: node head
  */
 
 void free_dlistint(dlistint_t *head)
