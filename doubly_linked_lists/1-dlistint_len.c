@@ -2,11 +2,11 @@
 #include "lists.h"
 
 /**
- * list_len - # of elements in said linked list
+ * dlistint_len - returns number of elems in a linked list
  *
- * @h: checked list
+ * @h: node head
  *
- * Return: # of elements
+ * Return: # of elements in linked list
  */
 
 size_t dlistint_len(const dlistint_t *h)
